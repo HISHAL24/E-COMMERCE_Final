@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🔐 Login - Catalogue Management</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>🔐 Login to Catalogue System</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="👤 Username" required>
+      <input type="password" id="password" placeholder="🔒 Password" required>
+      <button type="submit">➡️ Login</button>
+    </form>
+    <p id="loginMessage"></p>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      fetch("/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ username, password })
+      })
+      .then(response => response.json())
+      .then(data => {
+        const message = document.getElementById("loginMessage");
+        if (data.message) {
+          message.textContent = "✅ " + data.message;
+          message.style.color = "green";
+          setTimeout(() => {
+            window.location.href = "/"; // redirect to index.html
+          }, 1000);
+        } else {
+          message.textContent = "❌ " + data.error;
+          message.style.color = "red";
+        }
+      })
+      .catch(error => {
+        document.getElementById("loginMessage").textContent = "⚠️ Error logging in";
+      });
+    });
+  </script>
+</body>
+</html>

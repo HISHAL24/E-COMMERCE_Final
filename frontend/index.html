@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>📦 Catalogue Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="initCatalogueView()">
+  <div class="container">
+    <h1>📦 Catalogue Management</h1>
+
+    <div class="menu">
+      <button onclick="showSection('create')">➕ New Catalogue</button>
+      <button onclick="showSection('all_catalogues')">📋 View All</button>
+      <button onclick="logout()">🔓 Logout</button>
+    </div>
+
+    <!-- Create Section -->
+    <div class="section" id="create">
+      <h2>Create New Catalogue</h2>
+      <input type="text" id="c_name" placeholder="Name" />
+      <input type="text" id="c_desc" placeholder="Description" />
+      <input type="date" id="c_from" />
+      <input type="date" id="c_to" />
+      <select id="c_status">
+        <option value="">Select Status</option>
+        <option value="Active">Active</option>
+        <option value="Inactive">Inactive</option>
+      </select>
+      <button onclick="createCatalogue()">💾 Save</button>
+    </div>
+
+    <!-- View All Section -->
+    <div class="section" id="all_catalogues">
+      <h2>📋 All Catalogues</h2>
+
+      <!-- Unified filter/search bar -->
+<div class="filter-group">
+  <input type="number" id="get_id" placeholder="🔎 Enter Catalogue ID" />
+
+  <button onclick="searchById()" class="filter-btn search-btn">
+    <svg viewBox="0 0 24 24" class="icon"><path d="M21 21l-4.35-4.35M17 11a6 6 0 1 0-12 0 6 6 0 0 0 12 0z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    Search
+  </button>
+
+  <button onclick="getAllCatalogues()" class="filter-btn all-btn">
+    <svg viewBox="0 0 24 24" class="icon"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    All
+  </button>
+
+  <button onclick="filterCataloguesByStatus('Active')" class="filter-btn active-btn">
+    <svg viewBox="0 0 24 24" class="icon"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    Active
+  </button>
+
+  <button onclick="filterCataloguesByStatus('Inactive')" class="filter-btn inactive-btn">
+    <svg viewBox="0 0 24 24" class="icon"><path d="M6 6l12 12M6 18L18 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    Inactive
+  </button>
+</div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="all_data"></tbody>
+      </table>
+
+      <div class="pagination">
+        <button onclick="prevPage()">⬅️ Prev</button>
+        <span id="page_info"></span>
+        <button onclick="nextPage()">Next ➡️</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
