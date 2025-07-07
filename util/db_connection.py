@@ -2,8 +2,11 @@
 Utility module to provide database connection.
 """
 
+import logging
 import mysql.connector
 from mysql.connector import Error
+
+logger = logging.getLogger(__name__)
 
 def get_connection():
     """Establish and return a database connection."""
@@ -16,10 +19,12 @@ def get_connection():
             database="catalogue_dbms"
         )
         if conn.is_connected():
+            logger.info("Database connection established successfully.")
             return conn
         else:
-            print("Connection failed.")
+            logger.error("Database connection failed.")
             return None
     except Error as e:
-        print(f"Error connecting to database: {e}")
+        logger.exception(f"Error connecting to database: {e}")
         return None
+

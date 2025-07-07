@@ -1,0 +1,359 @@
+
+2025-07-06 18:26:36,456 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:26:36,457 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 18:26:36,457 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 18:26:36,459 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 18:26:36,460 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:26:36,462 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 18:26:36,466 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 18:26:36,507 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 18:26:36,508 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 18:26:36,510 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 18:26:37,434 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:26:37,435 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 18:26:37,435 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 18:26:37,437 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 18:26:37,437 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:26:37,439 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 18:26:37,445 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 18:26:37,472 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 18:26:37,477 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 18:27:21,800 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:21] "GET /apidocs/ HTTP/1.1" 200 -
+2025-07-06 18:27:22,064 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:22] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-07-06 18:27:22,071 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:22] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-07-06 18:27:22,074 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:22] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-07-06 18:27:22,077 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:22] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-07-06 18:27:22,257 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:22] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-07-06 18:27:22,261 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:22] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2025-07-06 18:27:34,382 - INFO - ECommerceLogger - Deleting catalogue with ID: 48
+2025-07-06 18:27:34,383 - DEBUG - service.catalogue_service - Deleting catalogue with ID: 48
+2025-07-06 18:27:34,527 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:27:34,528 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:27:34,531 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 18:27:34,541 - INFO - service.catalogue_service - Catalogue with ID 48 deleted successfully
+2025-07-06 18:27:34,545 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:27:34] "DELETE /catalogues/48 HTTP/1.1" 200 -
+2025-07-06 18:28:15,170 - INFO - ECommerceLogger - Deleting catalogue with ID: 48
+2025-07-06 18:28:15,170 - DEBUG - service.catalogue_service - Deleting catalogue with ID: 48
+2025-07-06 18:28:15,301 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:28:15,302 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:28:15,306 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 18:28:15,312 - WARNING - service.catalogue_service - No catalogue found to delete with ID: 48
+2025-07-06 18:28:15,314 - ERROR - ECommerceLogger - Catalogue with ID 48 not found for deletion.
+2025-07-06 18:28:15,315 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:15] "[33mDELETE /catalogues/48 HTTP/1.1[0m" 404 -
+2025-07-06 18:28:34,452 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-06 18:28:34,488 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:34] "[36mGET /login.html HTTP/1.1[0m" 304 -
+2025-07-06 18:28:34,512 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:34] "[36mGET /login.css HTTP/1.1[0m" 304 -
+2025-07-06 18:28:34,605 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 18:28:42,892 - INFO - ECommerceLogger - Login attempt for user: admin
+2025-07-06 18:28:42,893 - DEBUG - service.authentication_service - Validating user with username: admin
+2025-07-06 18:28:42,902 - INFO - service.authentication_service - User 'admin' authenticated successfully.
+2025-07-06 18:28:42,902 - INFO - ECommerceLogger - User admin logged in successfully.
+2025-07-06 18:28:42,904 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:42] "POST /login HTTP/1.1" 200 -
+2025-07-06 18:28:43,955 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:43] "GET / HTTP/1.1" 200 -
+2025-07-06 18:28:43,969 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:43] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-06 18:28:43,973 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:43] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-06 18:28:44,340 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 18:28:44,340 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 18:28:44,458 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:28:44,459 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:28:44,462 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 18:28:44,465 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 18:28:44,469 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:44] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 18:28:44,593 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 18:28:44,593 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 18:28:44,726 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:28:44,728 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:28:44,731 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 18:28:44,735 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 18:28:44,739 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:44] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 18:28:48,980 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:48] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-06 18:28:48,997 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:48] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-06 18:28:49,000 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:48] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-06 18:28:49,011 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 18:28:49,011 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 18:28:49,130 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:28:49,130 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:28:49,132 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 18:28:49,135 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 18:28:49,139 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:49] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 18:28:49,459 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 18:28:49,460 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 18:28:49,600 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 18:28:49,601 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 18:28:49,604 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 18:28:49,606 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 18:28:49,610 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 18:28:49] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 19:20:50,458 - INFO - werkzeug -  * Detected change in 'c:\\Users\\ACM\\Downloads\\E-COMMERCE_Final\\service\\catalogue_service.py', reloading
+2025-07-06 19:20:50,578 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:26:19,688 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:26:19,689 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:26:19,689 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:26:19,691 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:26:19,691 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:26:19,693 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:26:19,697 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:26:19,755 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:26:19,755 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:26:19,759 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:26:20,692 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:26:20,692 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:26:20,693 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:26:20,695 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:26:20,695 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:26:20,697 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:26:20,702 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:26:20,732 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:26:20,736 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:27:28,311 - INFO - werkzeug -  * Detected change in 'c:\\Users\\ACM\\Downloads\\E-COMMERCE_Final\\app.py', reloading
+2025-07-06 19:27:28,403 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:27:29,422 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:27:29,423 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:27:29,423 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:27:29,425 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:27:29,425 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:27:29,427 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:27:29,430 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:27:29,459 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:27:29,463 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:27:35,162 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:27:35,163 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:27:35,163 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:27:35,165 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:27:35,165 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:27:35,167 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:27:35,170 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:27:35,205 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:27:35,206 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:27:35,208 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:27:36,108 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:27:36,108 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:27:36,108 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:27:36,110 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:27:36,111 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:27:36,112 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:27:36,120 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:27:36,166 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:27:36,170 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:27:52,320 - INFO - werkzeug -  * Detected change in 'c:\\Users\\ACM\\Downloads\\E-COMMERCE_Final\\app.py', reloading
+2025-07-06 19:27:52,420 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:31:30,721 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:31:30,722 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:31:30,722 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:31:30,725 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:31:30,726 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:31:30,729 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:31:30,737 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:31:30,803 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:31:30,804 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:31:30,807 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:31:31,807 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:31:31,807 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:31:31,808 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:31:31,810 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:31:31,811 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:31:31,813 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:31:31,819 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:31:31,853 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:31:31,857 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:31:57,157 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:31:57,158 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:31:57,158 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:31:57,160 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:31:57,161 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:31:57,163 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:31:57,167 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:31:57,216 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:31:57,216 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:31:57,220 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:31:58,071 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:31:58,072 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:31:58,072 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:31:58,074 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:31:58,074 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:31:58,077 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:31:58,082 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:31:58,113 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:31:58,118 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:32:04,765 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-06 19:32:04,929 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:04] "[36mGET /login.html HTTP/1.1[0m" 304 -
+2025-07-06 19:32:04,940 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:04] "[36mGET /login.css HTTP/1.1[0m" 304 -
+2025-07-06 19:32:05,044 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 19:32:11,642 - INFO - ECommerceLogger - Login attempt for user: admin
+2025-07-06 19:32:11,642 - DEBUG - service.authentication_service - Validating user with username: admin
+2025-07-06 19:32:11,646 - INFO - service.authentication_service - User 'admin' authenticated successfully.
+2025-07-06 19:32:11,647 - INFO - ECommerceLogger - User admin logged in successfully.
+2025-07-06 19:32:11,649 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:11] "POST /login HTTP/1.1" 200 -
+2025-07-06 19:32:12,698 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:12] "GET / HTTP/1.1" 200 -
+2025-07-06 19:32:12,713 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:12] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-06 19:32:12,716 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:12] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-06 19:32:13,103 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 19:32:13,103 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 19:32:13,225 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:32:13,226 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:32:13,229 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 19:32:13,232 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 19:32:13,235 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:13] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 19:32:13,361 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 19:32:13,362 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 19:32:13,494 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:32:13,495 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:32:13,497 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 19:32:13,500 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 19:32:13,504 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:32:13] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 19:36:09,797 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:36:09,798 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:36:09,798 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:36:09,800 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:36:09,801 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:36:09,802 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:36:09,807 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:36:09,851 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:36:09,852 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:36:09,854 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:36:10,759 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:36:10,759 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:36:10,760 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:36:10,761 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:36:10,762 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:36:10,764 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:36:10,768 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:36:10,796 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:36:10,799 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:36:18,472 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:36:18] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-06 19:36:18,487 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:36:18] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-06 19:36:18,487 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:36:18] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-06 19:36:18,908 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 19:36:18,909 - DEBUG - service.catalogue_service - Fetching all catalogues with limit=100 offset=0
+2025-07-06 19:36:18,987 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:36:18,988 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:36:18,990 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 19:36:18,993 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 19:36:18,995 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:36:18] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 19:36:19,168 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 19:36:19,168 - DEBUG - service.catalogue_service - Fetching all catalogues with limit=100 offset=0
+2025-07-06 19:36:19,246 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:36:19,247 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:36:19,249 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 19:36:19,254 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 19:36:19,257 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:36:19] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 19:39:34,038 - INFO - werkzeug -  * Detected change in 'c:\\Users\\ACM\\Downloads\\E-COMMERCE_Final\\app.py', reloading
+2025-07-06 19:39:34,172 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:39:45,079 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:39:45,080 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:39:45,080 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:39:45,082 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:39:45,083 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:39:45,085 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:39:45,136 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:39:45,136 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:39:45,138 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:39:46,221 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:39:46,222 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:39:46,223 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:39:46,225 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:39:46,225 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:39:46,227 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:39:46,270 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:39:46,274 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:39:51,498 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:39:51] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-06 19:39:51,682 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:39:51] "[36mGET /login.html HTTP/1.1[0m" 304 -
+2025-07-06 19:39:51,692 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:39:51] "[36mGET /login.css HTTP/1.1[0m" 304 -
+2025-07-06 19:39:51,786 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:39:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 19:39:59,343 - INFO - ECommerceLogger - Login attempt for user: admin
+2025-07-06 19:39:59,344 - DEBUG - service.authentication_service - Validating user with username: admin
+2025-07-06 19:39:59,349 - INFO - service.authentication_service - User 'admin' authenticated successfully.
+2025-07-06 19:39:59,350 - INFO - ECommerceLogger - User admin logged in successfully.
+2025-07-06 19:39:59,361 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:39:59] "POST /login HTTP/1.1" 200 -
+2025-07-06 19:40:00,415 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:40:00] "GET / HTTP/1.1" 200 -
+2025-07-06 19:40:00,430 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:40:00] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-06 19:40:00,431 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:40:00] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-06 19:40:00,794 - WARNING - ECommerceLogger - Unauthorized access attempt to get all catalogues.
+2025-07-06 19:40:00,796 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:40:00] "[31m[1mGET /catalogues HTTP/1.1[0m" 401 -
+2025-07-06 19:40:01,052 - WARNING - ECommerceLogger - Unauthorized access attempt to get all catalogues.
+2025-07-06 19:40:01,053 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:40:01] "[31m[1mGET /catalogues HTTP/1.1[0m" 401 -
+2025-07-06 19:40:09,515 - INFO - werkzeug -  * Detected change in 'c:\\Users\\ACM\\Downloads\\E-COMMERCE_Final\\app.py', reloading
+2025-07-06 19:40:09,658 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:40:10,706 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:40:10,706 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:40:10,707 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:40:10,709 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:40:10,709 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:40:10,711 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:40:10,714 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:40:10,741 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:40:10,745 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:40:24,860 - INFO - werkzeug -  * Detected change in 'c:\\Users\\ACM\\Downloads\\E-COMMERCE_Final\\service\\catalogue_service.py', reloading
+2025-07-06 19:40:24,952 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:40:26,005 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:40:26,006 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:40:26,006 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:40:26,008 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:40:26,008 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:40:26,010 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:40:26,015 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:40:26,043 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:40:26,046 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:44:50,658 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:44:50,659 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:44:50,659 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:44:50,662 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:44:50,663 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:44:50,666 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:44:50,672 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:44:50,726 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:44:50,726 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:44:50,728 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:44:55,241 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:44:55,242 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:44:55,242 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:44:55,244 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:44:55,245 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:44:55,247 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:44:55,251 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:44:55,296 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 19:44:55,297 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-06 19:44:55,299 - INFO - werkzeug -  * Restarting with stat
+2025-07-06 19:44:56,167 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:44:56,167 - INFO - mysql.connector - package: mysql.connector.plugins
+2025-07-06 19:44:56,168 - INFO - mysql.connector - plugin_name: caching_sha2_password
+2025-07-06 19:44:56,170 - INFO - mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-07-06 19:44:56,171 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:44:56,173 - INFO - service.authentication_service - Database connection for AuthenticationService established successfully.
+2025-07-06 19:44:56,178 - INFO - ECommerceLogger - Starting the Flask server...
+2025-07-06 19:44:56,207 - WARNING - werkzeug -  * Debugger is active!
+2025-07-06 19:44:56,211 - INFO - werkzeug -  * Debugger PIN: 164-392-344
+2025-07-06 19:45:09,036 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:09] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-06 19:45:09,168 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:09] "[36mGET /login.html HTTP/1.1[0m" 304 -
+2025-07-06 19:45:09,182 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:09] "[36mGET /login.css HTTP/1.1[0m" 304 -
+2025-07-06 19:45:09,266 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 19:45:16,228 - INFO - ECommerceLogger - Login attempt for user: admin
+2025-07-06 19:45:16,228 - DEBUG - service.authentication_service - Validating user with username: admin
+2025-07-06 19:45:16,232 - INFO - service.authentication_service - User 'admin' authenticated successfully.
+2025-07-06 19:45:16,233 - INFO - ECommerceLogger - User admin logged in successfully.
+2025-07-06 19:45:16,238 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:16] "POST /login HTTP/1.1" 200 -
+2025-07-06 19:45:17,283 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:17] "GET / HTTP/1.1" 200 -
+2025-07-06 19:45:17,297 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:17] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-06 19:45:17,301 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:17] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-06 19:45:17,684 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 19:45:17,685 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 19:45:17,807 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:45:17,808 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:45:17,811 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 19:45:17,813 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 19:45:17,816 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:17] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 19:45:17,949 - INFO - ECommerceLogger - Fetching all catalogues.
+2025-07-06 19:45:17,950 - DEBUG - service.catalogue_service - Fetching all catalogues
+2025-07-06 19:45:18,088 - DEBUG - mysql.connector - # _do_auth(): self._auth_plugin: 
+2025-07-06 19:45:18,089 - DEBUG - mysql.connector - new_auth_plugin: caching_sha2_password
+2025-07-06 19:45:18,091 - INFO - util.db_connection - Database connection established successfully.
+2025-07-06 19:45:18,094 - INFO - service.catalogue_service - Total catalogues fetched: 10
+2025-07-06 19:45:18,097 - INFO - werkzeug - 127.0.0.1 - - [06/Jul/2025 19:45:18] "GET /catalogues HTTP/1.1" 200 -
