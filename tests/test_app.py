@@ -23,5 +23,16 @@ def test_invalid_login(client):
 
 def test_logout_without_login(client):
     response = client.post("/logout")
-    assert response.status_code == 200
+    assert response.status_code == 200                                           
     assert b"Logged out" in response.data
+                                                                                                                   
+
+
+
+
+
+
+
+
+
+                                                                                                                            
